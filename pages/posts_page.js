@@ -27,7 +27,7 @@ class PostsPage extends HTMLElement {
             <h1>Posts</h1>
             <div class="posts">
                 <generic-card
-                    image="../assets/images/oppenheimer.jpg"
+                    image="assets/images/oppenheimer.jpg"
                     title="Minha opinião sobre o filme Oppenheimer (2023)"
                     description="
                         O filme é muito bom, traz uma visão muito interessante sobre a vida de um dos
@@ -42,7 +42,7 @@ class PostsPage extends HTMLElement {
                     "
                 ></generic-card>
                 <generic-card
-                    image="../assets/images/barbie.webp"
+                    image="assets/images/barbie.webp"
                     title="Minha opinião sobre o filme da Barbie (2023)"
                     description="
                         Contrariando algumas expectativas, Barbie é um filme que aborda temas
@@ -53,7 +53,7 @@ class PostsPage extends HTMLElement {
                     "
                 ></generic-card>
                 <generic-card
-                    image="../assets/images/oppenheimer2.webp"
+                    image="assets/images/oppenheimer2.webp"
                     title="Quem foi Oppenheimer?"
                     description="
                     J. Robert Oppenheimer foi um físico teórico notável que liderou o 

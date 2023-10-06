@@ -49,10 +49,10 @@ class ProfileCard extends HTMLElement {
             </style>
             <div class="perfil-card">
                 <div class="capa">
-                    <img src="../assets/images/oppenheimer2.jpg" alt="Capa do perfil">
+                    <img src="assets/images/oppenheimer2.jpg" alt="Capa do perfil">
                 </div>
                 <div class="foto-perfil">
-                    <img src="../assets/images/perfil.jpg" alt="Foto de perfil">
+                    <img src="assets/images/perfil.jpg" alt="Foto de perfil">
                 </div>
                 <div class="informacoes">
                     <h2>Pedro Henrique</h2>

@@ -28,7 +28,7 @@ class IncludeProfilePage extends HTMLElement {
             </style>
 
             <div class="include-doc">
-                <img src="../assets/images/include2.png"/>
+                <img src="assets/images/include2.png"/>
                 <h2>O que é a Include Engenharia</h2>
                 <p>
                     A Include Engenharia é uma empresa júnior do Centro de Tecnologia da Universidade 

@@ -22,7 +22,7 @@ class TechProfilePage extends HTMLElement {
             <h1>Meu perfil técnico</h1>
             <div class="cards">
                 <generic-card 
-                    image="../assets/images/formatura.jpeg" 
+                    image="assets/images/formatura.jpeg" 
                     title="Formação"
                     description="
                         Estudante do curso de Ciência e Tecnologia na Universidade Federal do Rio Grande do Norte
