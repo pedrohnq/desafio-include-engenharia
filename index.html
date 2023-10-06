@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <title>Pedro Henrique - Include Engenharia</title>
+
+    <!-- Import all Components -->
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <script src="components/footer.js" type="text/javascript" defer></script>
+    <script src="components/profile_card.js" type="text/javascript" defer></script>
+    <script src="components/generic_card.js" type="text/javascript" defer></script>
+
+    <!-- Pages -->
+    <script src="pages/personal_profile.js"></script>
+    <script src="pages/tech_profile.js"></script>
+    <script src="pages/include_profile.js"></script>
+    <script src="pages/posts_page.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+    <header-component></header-component>
+    <div id="content">
+
+    </div>
+    <!-- put icons down -->
+    <footer style="margin-top: auto; padding-top: 10px;">
+        Designed and developed by Pedro Henrique
+        
+        <!-- put icons down -->
+        <div class="icons">
+            <a href="https://github.com/pedrohnq" target="_blank" class="fa fa-github"></a>
+            <a href="https://www.linkedin.com/in/pedrohenrique-dev/" target="_blank" class="fa fa-linkedin"></a>
+            <a href="https://www.instagram.com/pedrohenrique.dev" target="_blank" class="fa fa-instagram"></a>
+        </div>
+    </footer>
+</body>
+
+<script>
+    // handle current page
+    const urlParams = new URLSearchParams(window.location.search);
+    const currentPage = urlParams.get('page');
+    
+    if (currentPage === 'personal_profile') {
+        page = document.createElement('personal-profile-page');
+    } else if (currentPage === 'tech_profile') {
+        page = document.createElement('tech-profile-page');
+    } else if (currentPage === 'posts') {
+        page = document.createElement('posts-page');
+    } else {
+        page = document.createElement('include-profile-page');
+    }
+
+    // handle current page
+    const content = document.getElementById('content');
+    content.appendChild(page);
+</script>
+</html>
